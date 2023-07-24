@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: russo;
+    src: url('/public/RussoOne-Regular.ttf');
+  }
+}
+@layer components {
+  .inp{
+    @apply w-full h-12 text-black bg-[#7b7b7b3b]  border-b-[1px] border-b-[#000] rounded-[3px] outline-none p-2.5 hover:h-[55px] hover:border-b-[3px] hover:border-b-[#ff0000c9] focus:font-bold focus:h-[55px] focus:border-b-[3px] focus:border-b-[#ff0000c9] transition-all duration-700 dark:bg-[#e0e0e03a] dark:border-b-[#fff] dark:text-white dark:hover:border-b-[#ff0000c9] placeholder:text-black focus:placeholder:text-red-800 focus:placeholder:text-xl dark:placeholder:text-white dark:focus:placeholder:text-red-800 dark:focus:placeholder:text-xl 
+    /* &::-webkit-input-placeholder{
+      font-size: small;
+      color: black;
+      
+    }
+    &:focus {
+      &::-webkit-input-placeholder{
+        font-size: medium;
+        color: red;
+        transition: all 700ms
+      }
+      
+    }
+    &:dark{
+      &::-webkit-input-placeholder{
+        font-size: medium;
+        color: #fff;
+        transition: all 700ms
+      }
+    } */
+  }
+  .inpD{
+    &::-webkit-input-placeholder{
+      font-size: medium;
+      color: #fff;
+      transition: all 700ms
+    }
+  }
+ 
 }

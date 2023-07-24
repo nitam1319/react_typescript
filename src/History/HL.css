@@ -1,0 +1,74 @@
+.divH{
+    margin-top: 60px;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.divHL{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 80px;
+    color :rgb(247, 247, 247);
+    font-weight: 700;
+    /* border: 1px solid #fff; */
+}
+.divHL p{
+    border: 1px solid #fff;
+    width: 34%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.conterDiv{
+    width: 70%;  
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+}
+.numDiv{
+    height: 100%;
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btnNum{
+    background-color: black;
+    height: 50%;
+    width: 25px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}
+.selectDiv{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.ggg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.btnNum2{
+    background-color: black;
+    height: 50%;
+    width: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}

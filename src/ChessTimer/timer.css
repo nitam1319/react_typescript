@@ -1,0 +1,20 @@
+.divTA{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.divT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:10px solid gold;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+}
